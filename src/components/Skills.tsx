@@ -10,27 +10,27 @@ const skillsData = [
       { name: "Python", level: 90 },
       { name: "SQL", level: 85 },
       { name: "JavaScript", level: 80 },
-      { name: "HTML/CSS", level: 85 },
-      { name: "PHP", level: 60 },
+      { name: "HTML/CSS", level: 65 },
+      { name: "PHP", level: 70 },
     ]
   },
   {
     category: "Frameworks/Libraries",
     icon: Database,
     skills: [
-      { name: "TensorFlow", level: 85 },
-      { name: "PyTorch", level: 80 },
-      { name: "OpenCV", level: 75 },
-      { name: "Hugging Face", level: 85 },
-      { name: "LangChain", level: 80 },
+      { name: "TensorFlow", level: 75 },
+      { name: "PyTorch", level: 60 },
+      { name: "OpenCV", level: 65 },
+      { name: "Hugging Face", level: 75 },
+      { name: "LangChain", level: 75 },
     ]
   },
   {
     category: "Tools",
     icon: Wrench,
     skills: [
-      { name: "AWS SageMaker", level: 80 },
-      { name: "MySQL", level: 85 },
+      { name: "AWS SageMaker", level: 50 },
+      { name: "MySQL", level: 65 },
       { name: "Tableau", level: 75 },
       { name: "Power BI", level: 70 },
       { name: "n8n", level: 75 },
