@@ -21,7 +21,7 @@ export const Hero = () => {
                 SOFTWARE & AI/ML DEVELOPER
               </p>
               <p className="text-lg text-accent">
-                DATA SCIENCE INTERN
+                DATA SCIENCE LEARNER
               </p>
             </div>
             
