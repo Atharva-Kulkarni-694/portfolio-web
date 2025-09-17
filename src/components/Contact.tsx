@@ -41,6 +41,12 @@ const socialLinks = [
     label: "Email",
     href: "mailto:kulkarniatharva879@gmail.com",
     color: "hover:text-primary"
+  },
+  {
+    icon: Twitter,
+    label: "Twitter",
+    href: "https://x.com/AtharvaK1326",
+    color: "hover:text-primary"
   }
 ];
 
