@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Send, X } from "lucide-react";
 
 const contactInfo = [
   {
@@ -43,8 +43,8 @@ const socialLinks = [
     color: "hover:text-primary"
   },
   {
-    icon: Twitter,
-    label: "Twitter",
+    icon: X,
+    label: "x (Twitter)",
     href: "https://x.com/AtharvaK1326",
     color: "hover:text-primary"
   }
