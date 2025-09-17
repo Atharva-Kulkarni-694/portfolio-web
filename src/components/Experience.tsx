@@ -8,7 +8,7 @@ const experiences = [
     title: "Data Science Intern",
     company: "NullClass",
     location: "Pune, MH",
-    period: "May 2025 – Present",
+    period: "May 2025 – Sept 2025",
     description: "Developed AI/ML applications using Python, Pandas, scikit-learn, etc. Built data preprocessing pipelines and model integration modules. Participated in sprint planning, code reviews, and production deployments.",
     skills: ["Python", "Pandas", "scikit-learn", "AI/ML", "Data Preprocessing", "Model Integration"],
     icon: Briefcase
@@ -32,6 +32,16 @@ const experiences = [
     description: "CGPA: 7.5. Specialized coursework in Gen-AI, Machine Learning, Neural Networks, and Web Development. Active participation in technical projects and coding competitions.",
     skills: ["Gen-AI", "Machine Learning", "Neural Networks", "Web Development"],
     icon: GraduationCap
+  },
+  {
+    type: "College Club",
+    title: "Secretary And PR Lead , Coding Club",
+    company: "AICC , GH Raisoni College of Engineering and Management",
+    location: "Pune, MH",
+    period: "July 2024 – Aug 2025",
+    description: "Led a team of 40+ members to organize coding workshops, hackathons, and tech talks. Coordinated with industry professionals for guest lectures and mentorship sessions. Enhanced member engagement through social media and events. Collaborated with Companies Like HP Omen for events and workshops.",
+    skills: ["Marketing", "Problem Solving", "Communication", "Team Leadership"],
+    icon: Building
   }
 ];
 
