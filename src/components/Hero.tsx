@@ -20,86 +20,41 @@ export const Hero = () => {
               <h1 className="text-4xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
                 Atharva Kulkarni
               </h1>
+
               <p className="text-xl md:text-2xl text-muted-foreground">
-                SOFTWARE & AI/ML DEVELOPER
+                Software Engineer · AI / Machine Learning
               </p>
-              <p className="text-lg text-accent">DATA SCIENCE LEARNER</p>
+
+              <p className="text-lg text-accent">
+                Building scalable, data-driven systems
+              </p>
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              Results-oriented Computer Science undergrad specializing in
-              Artificial Intelligence with hands-on expertise in machine
-              learning, full-stack development, and applied data science.
-              Passionate about building intelligent tools and solving real-world
-              problems with scalable technology.
+              Computer Science undergraduate specializing in Artificial
+              Intelligence and Machine Learning, with hands-on experience
+              building production-oriented systems across ML pipelines,
+              full-stack applications, and applied data science. Focused on
+              writing clean, scalable code and solving real-world problems with
+              measurable impact.
             </p>
 
             {/* Contact Info */}
-            <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
+            <div className="flex flex-wrap gap-4 text-sm text-muted-foreground pt-2">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Pune</span>
+                <span>Pune, India</span>
               </div>
+
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
                 <span>+91 9022929310</span>
               </div>
+
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
                 <span>kulkarniatharva879@gmail.com</span>
               </div>
-            </div>
-
-            {/* CTA Buttons */}
-            <div className="flex flex-wrap gap-4 pt-4">
-              {/* Email Button */}
-              <Button variant="hero" size="lg" className="group" asChild>
-                <a href="mailto:kulkarniatharva879@gmail.com">
-                  <Mail className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  Get In Touch
-                </a>
-              </Button>
-
-              {/* GitHub Button */}
-              <Button variant="outline" size="lg" className="group" asChild>
-                <a
-                  href="https://github.com/Atharva-Kulkarni-694"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  View Projects
-                </a>
-              </Button>
-            </div>
-
-            {/* Social Links */}
-            <div className="flex gap-4 pt-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
-                <a
-                  href="https://www.linkedin.com/in/atharva-kulkarni-049750271"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Linkedin className="w-5 h-5" />
-                </a>
-              </Button>
-
-              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
-                <a
-                  href="https://github.com/Atharva-Kulkarni-694"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Github className="w-5 h-5" />
-                </a>
-              </Button>
-
-              <Button variant="ghost" size="icon" className="hover:text-primary" asChild>
-                <a href="mailto:kulkarniatharva879@gmail.com">
-                  <Mail className="w-5 h-5" />
-                </a>
-              </Button>
             </div>
           </div>
 
@@ -124,3 +79,4 @@ export const Hero = () => {
     </section>
   );
 };
+import { Card } from "@/components/ui/card";
