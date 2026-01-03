@@ -37,7 +37,7 @@ export const Hero = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4" />
-                <span>9022929310</span>
+                <span>+919022929310</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
@@ -77,7 +77,7 @@ export const Hero = () => {
               <div className="absolute -inset-4 bg-gradient-primary rounded-full blur-xl opacity-30 animate-glow-pulse" />
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl">
                 <img 
-                  src="/uploads/4a8d6fa2-ffcd-450c-9aa3-92ef745b18ab.png" 
+                  src="\uploads\WhatsApp Image 2026-01-03 at 9.32.11 PM.jpeg" 
                   alt="Atharva Kulkarni" 
                   className="w-full h-full object-cover"
                 />
